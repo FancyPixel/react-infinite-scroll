@@ -1,7 +1,7 @@
 {
   "name": "react-infinite-scroll",
-  "version": "0.1.5",
-  "description": "",
+  "version": "0.2",
+  "description": "Fork of guillaumervls/react-infinite-scroll",
   "main": "src/react-infinite-scroll.js",
   "scripts": {
     "test": "grunt lint"

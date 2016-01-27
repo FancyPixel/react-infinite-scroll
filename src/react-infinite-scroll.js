@@ -1,5 +1,3 @@
-var deepEqual = require('deep-equal');
-
 function topPosition(domElt) {
   if (!domElt) {
     return 0;
@@ -34,10 +32,6 @@ module.exports = function (React, ReactDOM) {
 
     componentDidMount: function () {
       this.attachScrollListener();
-    },
-
-    shouldComponentUpdate: function(nextProps, nextState) {
-      return !deepEqual(this.props.children, nextProps.children);
     },
 
     componentDidUpdate: function () {

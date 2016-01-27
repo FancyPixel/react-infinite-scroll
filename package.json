@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-scroll",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fork of guillaumervls/react-infinite-scroll",
   "main": "src/react-infinite-scroll.js",
   "scripts": {
